@@ -210,18 +210,15 @@
           {
             supportedMethods: "https://tez.google.com/pay",
             data: {
-              pa: "example@okaxis",      // Your UPI ID/VPA (Virtual Payment Address)
+              pa: "8179617141@pz",      // Your UPI ID/VPA (Virtual Payment Address)
               pn: "Example Merchant",    // Payee name
               tr: "TEZTEST123",          // Your transaction reference ID
-              url: "https://testing-pay.vercel.app/",  // Your merchant website
+              url: "https://hadidtech.com/",  // Your merchant website
               mc: "5411",                // Your merchant category code
               tn: "Test Transaction",    // Transaction note
-              
-              // The following are optional but recommended for invoicing
               gstBrkUp: "GST:16.90|CGST:08.45|SGST:08.45",  // GST breakup
               invoiceNo: "INV123456",                       // Invoice number
               invoiceDate: new Date().toISOString(),        // Invoice date
-              gstIn: "29ABCDE1234F2Z5"                      // Your GSTIN
             }
           }
         ];
